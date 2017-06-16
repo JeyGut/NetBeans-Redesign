@@ -1,0 +1,382 @@
+
+/*estilos del header*/
+.searchInput{
+  border-radius: 50px;
+}
+.navbar{
+  margin-bottom: 0;
+}
+/* fin estilos del header*/
+
+/*estilos del body*/
+.row{
+  margin: 0;
+  padding: 0;
+}
+h1,h2{
+  margin-bottom: 30px;
+}
+h1, h2, h3, h4{
+  font-family: 'Lato';
+}
+p{
+  font-family: 'Open Sans';
+  font-size: 1.250em;
+}
+a{
+  text-decoration: none;
+}
+#cover{
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  padding: 140px 100px;
+  width: 100%;
+}
+.coverContent>h1 small{
+  font-size: 1.375em;
+  color: #f6f6f6;
+}
+.coverAction>h1{
+  text-align: center;
+}
+.btnRound, .btnDownload{
+  padding: 5px 0px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.btnRound:hover{
+  padding: 5px;
+  color: #666;
+  background-color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.btnDownload:hover{
+  padding: 5px;
+  color: #fff;
+  background-color: #e67e22;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  border: 1px solid #e67e22;
+}
+
+#mainFeature, #moreFeatures, #multiplatform, #community{
+  margin: 60px 0px;
+  color: #363f44;
+}
+.mainFeatImg{
+  text-align: center;
+  padding: 60px;
+}
+#moreFeatures p{
+  font-size: 1em;
+}
+#moreFeatures .col-md-12, #multiplatform .col-md-12{
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#moreFeatures ul{
+  padding: 0;
+}
+#moreFeatures li{
+  margin-bottom: 5px;
+  list-style-type: none;
+  font-family: 'Open Sans';
+}
+#multiplatform{
+  text-align: center;
+}
+#multiplatform .col-md-4:nth-child(odd){
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+}
+.btnRound2{
+  color: #363f44;
+  border: 1px solid #363f44;
+  border-radius: 50px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.btnRound2:hover{
+  color: #fff;
+  background-color: #363f44;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  text-decoration: none;
+}
+#community{
+  background-image: url('../img/community.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  color: #fff;
+  padding: 0px;
+}
+.joinUs{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+}
+.joinUs>.btnRound{
+  padding: 10px;
+  font-size: 1.250em;
+}
+/* fin estilos del body*/
+
+/*estilos del footer*/
+footer{
+  background-color: #363f44;
+  color: #fff;
+  font-family: 'Lato';
+  overflow: hidden;
+}
+footer .col-md-6{
+  padding: 50px 30px;
+  text-align: center;
+}
+footer a{
+  color: #fff;
+  text-align: center;
+  padding-right: 45px;
+}
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/*estilos del footer*/
+
+
+/*CSS for features.html*/
+#featSidebar{
+  background-color: #f6f6f6;
+  margin: 20px 0;
+  padding: 20px 10px;
+  font-family: 'lato';
+  text-align: center;
+}
+#featSidebar li a, #featSidebar ul a{
+  color: #363f44;
+  text-decoration: none;
+}
+#featSidebar ul{
+  margin-bottom: 30px;
+  padding: 25px 10px;
+  font-size: 1.125em;
+  border-top: 1px solid #e6e6e6;
+  color: #363f44;
+}
+#featSidebar li{
+  margin-top: 20px;
+  list-style-type: none;
+  text-align: center;
+  font-family: "lato";
+  font-size: 1em;
+  color: #363f44;
+  padding: 3px 0;
+}
+#featContent{
+  padding: 20px 0;
+}
+.indFeature{
+  border-top: 1px solid #e6e6e6;
+  padding: 20px;
+}
+.featDesc p, #addFeat p{
+  font-size: 0.875em;
+}
+.featScreen{
+  padding: 30px 0;
+}
+.featScreen img{
+  margin-bottom: 15px;
+}
+.actionBtn{
+  display: block;
+}
+.actionBtn:hover{
+  text-decoration: none;
+}
+#addFeat{
+  margin: 20px 0;
+  overflow: hidden;
+}
+.allDetails{
+  display: none;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #e67e22;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.allDetails:hover{
+  background-color: #d35400;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+#plugins{
+  background-image: url('../img/plugins.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  color: #fff;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.pluginsSite{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 70px;
+}
+.pluginsSite p{
+  font-size: 0.875em;
+}
+
+
+
+
+/**************Media Queries***************/
+
+@media (max-width: 1024px){
+  p{
+    font-size: 1em;
+  }
+  h1,h2{
+    font-size: 1.563em;
+  }
+  h1 small{
+    font-size: 1.250em;
+  }
+  .links a{
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px){
+  p{
+    font-size: 1em;
+  }
+  h1,h2{
+    font-size: 1.563em;
+  }
+  h1 small{
+    font-size: 1.250em;
+  }
+  #cover{
+    padding: 60px 70px;
+  }
+  .btnRound{
+    margin-bottom: 20px;
+  }
+  .links a, .social a{
+    padding: 5px;
+  }
+  .social a {
+    padding: 27px;
+  }
+  img{
+    text-align: center;
+  }
+  .pluginsSite {
+    padding: 15px;
+  }
+  .pluginsSite p{
+    font-style: 10px;
+  }
+  #addFeat p{
+    margin-bottom: 20px;
+  }
+  .searchInput {
+    border-radius: 50px;
+    width: 75%;
+    float: left;
+    display: inline-block;
+    margin: 5px 10px;
+  }
+}
+
+
+@media (max-width: 430px){
+  #mainFeature, #moreFeatures, #multiplatform, #community{
+    margin: 30px 0px;
+  }
+  #featContent {
+    padding: 0;
+  }
+  p{
+    font-size: 0.750em;
+  }
+  h1,h2{
+    font-size: 1.125em;
+    margin: 10px 0px;
+  }
+  .coverContent>h1 small {
+    font-size: 0.750em;
+  }
+  #cover{
+    padding: 20px 0px;
+  }
+  .plusFeat{
+    padding: 0 30px;
+  }
+  .btnRound, .btnDownload{
+    margin-bottom: 20px;
+  }
+  #multiplatform .col-md-4:nth-child(odd) {
+    border-right: none;
+    border-left:  none;
+  }
+  #multiplatform .col-md-4 {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+  }
+  .joinUs{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .joinUs>.btnRound {
+    padding: 5px 15px;
+    font-size: 0.625em;
+  }
+  #featSidebar{
+    display: none;
+  }
+  #plugins{
+    display: block;
+  }
+  .pluginsSite {
+    padding: 50px;
+  }
+  .pluginsSite>.btnRound, .pluginsSite>.btnDownload{
+    margin-bottom: 0;
+  }
+  .allDetails{
+    display: block;
+  }
+  footer .col-md-6 {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .links a, .social a{
+    padding: 5px;
+  }
+  .social a {
+    padding: 0px 27px;
+  }
+}
